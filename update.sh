@@ -10,3 +10,7 @@ then
 else
    echo "El directorio ${DIRECTORIO} no existe"
 fi
+
+sudo git clone https://github.com/Ansel-dal/DCMLockerLast
+
+sudo systemctl restart dcmlocker
